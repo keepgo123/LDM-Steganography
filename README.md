@@ -1,10 +1,10 @@
-# LDM-Based Image Steganography System
+# 基于潜在扩散模型的生成式无载体隐写技术研究
 
-基于潜在扩散模型（LDM）的图像隐写系统。
+Research on Generative Coverless Steganography Based on Latent Diffusion Model
 
 ## 项目说明
 
-本项目实现了基于潜在扩散模型（Latent Diffusion Model, LDM）的图像隐写方案，在图像生成过程中将秘密信息嵌入到扩散模型的隐空间表示中，同时保持生成图像的视觉质量。项目包含完整的隐写嵌入与提取流程，以及鲁棒性评估、攻击检测和消融实验等辅助模块。
+本项目实现了基于潜在扩散模型（Latent Diffusion Model, LDM）的生成式无载体隐写方案，在图像生成过程中将秘密信息嵌入到扩散模型的隐空间表示中，无需修改载体图像即可实现信息隐藏。项目包含完整的隐写嵌入与提取流程，以及鲁棒性评估、攻击检测和消融实验等辅助模块。
 
 ### 核心思路
 
@@ -46,9 +46,9 @@ python app_demo.py
 
 ## 项目声明
 
-- **项目名称**：基于扩散模型的图像隐写系统（LDM-Based Image Steganography System）
-- **项目作者**：[你的姓名]
-- **作者单位**：[你的学校及学院]
+- **项目名称**：基于潜在扩散模型的生成式无载体隐写技术研究
+- **项目作者**：周鹏辉
+- **作者单位**：暨南大学网络空间安全学院
 - **开发语言**：Python
 - **框架**：Diffusers / Transformers / PyTorch / Gradio / FastAPI
 - **核心技术**：潜在扩散模型（LDM）、隐空间特征调制、图像隐写与提取、图像隐私保护
@@ -59,9 +59,9 @@ python app_demo.py
 
 ```
 @thesis{lm-steganography,
-  title     = {基于扩散模型的图像隐写系统},
-  author    = {XXX},
-  school    = {XX大学},
+  title     = {基于潜在扩散模型的生成式无载体隐写技术研究},
+  author    = {周鹏辉},
+  school    = {暨南大学},
   year      = {2026},
 }
 ```
