@@ -46,6 +46,13 @@ python app_demo.py
 
 ## 项目声明
 
+- **项目名称**：基于扩散模型的图像隐写系统（LDM-Based Image Steganography System）
+- **项目作者**：[你的姓名]
+- **作者单位**：[你的学校及学院]
+- **开发语言**：Python
+- **框架**：Diffusers / Transformers / PyTorch / Gradio / FastAPI
+- **核心技术**：潜在扩散模型（LDM）、隐空间特征调制、图像隐写与提取、图像隐私保护
+
 本项目为毕业论文实验代码，仅供学术研究与学习参考。未经作者许可，不得用于商业用途。
 
 如使用本项目代码，请引用论文：
