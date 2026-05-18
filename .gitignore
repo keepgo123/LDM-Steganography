@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# 实验结果数据（文件多且大）
+experiment_results_final/
+honest_results/
+thesis_final_results/
+thesis_quantitative_results/
+thesis_results_batch/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
+
+# 系统文件
+.DS_Store
+Thumbs.db
